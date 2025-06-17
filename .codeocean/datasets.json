@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"attached_datasets": [
+		{
+			"id": "0fadf46e-9cae-4618-9f8a-6e086af808fb",
+			"mount": "ccf_2017_obj"
+		},
+		{
+			"id": "57a42c66-b6ca-4b56-b8ad-929be00ebff9",
+			"mount": "allen_mouse_ccf"
+		}
+	]
+}

@@ -1,8 +1,6 @@
 metadata_version: 1
-name: Analysis of LC morphologies
-description: Tutorial notebooks for exploring neuron morphologies using AIND ExaSPIM
-  data
+name: aind-LC-morphologies
+description: Notebooks for analysis of locus coeruleus (LC) morphology data
 authors:
-- name: Cameron Arshadi
-- name: Judith Baka
-- name: Saskia de Vries
+- name: Mathew Summers
+- name: Alex Piet
