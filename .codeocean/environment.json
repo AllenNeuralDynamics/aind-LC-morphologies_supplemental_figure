@@ -3,6 +3,7 @@
 	"base_image": "codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04",
 	"post_install": true,
 	"options": {
+		"registry_host_arg": true,
 		"git_ask_pass": true
 	},
 	"installers": {
@@ -24,6 +25,10 @@
 		},
 		"pip3": {
 			"packages": [
+				{
+					"name": "lc-reconstruction-analysis",
+					"version": "0.0.12"
+				},
 				{
 					"name": "matplotlib",
 					"version": "3.8.2"
@@ -61,9 +66,7 @@
 					"version": "0.5.5"
 				}
 			],
-			"options": {
-				"use_cache": true
-			},
+			"options": {},
 			"pre_install_options": {}
 		}
 	}
