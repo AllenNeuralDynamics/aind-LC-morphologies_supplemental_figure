@@ -1,5 +1,6 @@
-# hash:sha256:48562c8238f0a13a65e08e1584f50225df890bcd59776e5946e21ccc1a04f403
-FROM registry.codeocean.allenneuraldynamics.org/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
+# hash:sha256:5890da4b25c7e5c032c267e4c6620f6c7775f7266eea692775aa1e9b39892e49
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -13,7 +14,7 @@ RUN conda install -y \
         k3d==2.16.0 \
     && conda clean -ya
 
-RUN pip3 install -U \
+RUN pip3 install -U --no-cache-dir \
     matplotlib==3.8.2 \
     networkx==3.2.1 \
     numpy==1.26.2 \
