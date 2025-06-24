@@ -26,6 +26,10 @@
 		"pip3": {
 			"packages": [
 				{
+					"name": "lc-reconstruction-analysis",
+					"version": "0.0.12"
+				},
+				{
 					"name": "matplotlib",
 					"version": "3.8.2"
 				},
