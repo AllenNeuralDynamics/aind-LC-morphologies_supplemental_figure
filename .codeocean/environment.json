@@ -27,7 +27,7 @@
 			"packages": [
 				{
 					"name": "lc-reconstruction-analysis",
-					"version": "0.0.22"
+					"version": "0.0.23"
 				},
 				{
 					"name": "matplotlib",
