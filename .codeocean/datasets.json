@@ -8,6 +8,10 @@
 		{
 			"id": "57a42c66-b6ca-4b56-b8ad-929be00ebff9",
 			"mount": "allen_mouse_ccf"
+		},
+		{
+			"id": "d7b102e7-1b8c-46b4-afa3-cae10acdac5e",
+			"mount": "mouselight_public"
 		}
 	]
 }

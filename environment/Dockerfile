@@ -1,11 +1,9 @@
-# hash:sha256:a987f6cece6626ebc1da4e24e6dae08c53b96300f816ce08ab2af875cb099006
+# hash:sha256:72879db0640916525f0a2b123dadb6fa5cccbf69e39910762f772d239d6e3105
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
-
 ARG GIT_ASKPASS
-ARG GIT_ACCESS_TOKEN
 COPY git-askpass /
 
 RUN conda install -y \
