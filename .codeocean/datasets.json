@@ -10,6 +10,10 @@
 			"mount": "allen_mouse_ccf"
 		},
 		{
+			"id": "c8548568-22c1-4327-a2c9-410b9ccb33ba",
+			"mount": "exaSPIM_721332_reconstructions"
+		},
+		{
 			"id": "d7b102e7-1b8c-46b4-afa3-cae10acdac5e",
 			"mount": "mouselight_public"
 		}
