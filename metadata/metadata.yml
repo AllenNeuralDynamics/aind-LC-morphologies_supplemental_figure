@@ -1,6 +1,6 @@
 metadata_version: 1
 name: aind-LC-morphologies_supplemental_figure
-description: Notebooks for analysis of locus coeruleus (LC) morphology data
+description: Notebook for supplemental figure looking at generative null models
 authors:
 - name: Mathew Summers
-- name: Alex
+- name: Alex Piet
