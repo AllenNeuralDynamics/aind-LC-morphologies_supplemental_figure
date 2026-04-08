@@ -4,7 +4,8 @@
 	"post_install": true,
 	"options": {
 		"registry_host_arg": true,
-		"git_ask_pass": true
+		"git_ask_pass": true,
+		"mount_secrets": true
 	},
 	"installers": {
 		"conda": {
@@ -27,7 +28,7 @@
 			"packages": [
 				{
 					"name": "lc-reconstruction-analysis",
-					"version": "0.0.24"
+					"version": "0.0.27"
 				},
 				{
 					"name": "matplotlib",
