@@ -1,3 +1,6 @@
+# Github location
+https://github.com/AllenNeuralDynamics/aind-LC-morphologies_supplemental_figure
+
 # Markov Models of LC axon distributions
 
 This capsule contains a supplemental analysis for the morphology of LC axon distributions. We generated a series of Markov models of axon distribution. The reproducible run will run the notebook Alex_supplemental_figure_script, and save all figures. 
