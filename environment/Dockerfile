@@ -1,4 +1,4 @@
-# hash:sha256:73752bd14256e28db7c651ff754de021cb2440cd264f01ab4aa0f09ef0cfe710
+# hash:sha256:6a79a7b7333a5d7e44fd65ed90be157d0aaa29846ba41911d04e662473947e43
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
 
@@ -13,7 +13,7 @@ RUN conda install -y \
     && conda clean -ya
 
 RUN pip3 install -U --no-cache-dir \
-    lc-reconstruction-analysis==0.0.27 \
+    lc-reconstruction-analysis==0.0.33 \
     matplotlib==3.8.2 \
     networkx==3.2.1 \
     numpy==1.26.2 \
