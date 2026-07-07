@@ -8,4 +8,4 @@ set -ex
  	--ExecutePreprocessor.allow_errors=True \
  	--ExecutePreprocessor.timeout=-1 \
  	--FilesWriter.build_directory=../results \
- 	--execute 'Alex_supplemental_figure_script.ipynb'
+ 	--execute 'supplemental_figure_script.ipynb'
