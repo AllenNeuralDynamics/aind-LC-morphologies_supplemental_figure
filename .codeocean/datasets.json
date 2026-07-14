@@ -2,16 +2,8 @@
 	"version": 1,
 	"attached_datasets": [
 		{
-			"id": "0fadf46e-9cae-4618-9f8a-6e086af808fb",
-			"mount": "ccf_2017_obj"
-		},
-		{
 			"id": "55501e8f-e57c-4df5-9b51-c263fa58f82e",
 			"mount": "LC_Snapshots_1"
-		},
-		{
-			"id": "57a42c66-b6ca-4b56-b8ad-929be00ebff9",
-			"mount": "allen_mouse_ccf"
 		},
 		{
 			"id": "fdd6dcbf-0917-4349-ae18-20f687b0089c",
