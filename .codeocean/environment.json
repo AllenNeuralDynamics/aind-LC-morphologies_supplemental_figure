@@ -8,27 +8,19 @@
 		"mount_secrets": true
 	},
 	"installers": {
-		"conda": {
+		"pip3": {
 			"packages": [
 				{
-					"name": "hdbscan",
-					"version": "0.8.33"
-				},
-				{
-					"name": "jupyterlab",
-					"version": "4.0.9"
+					"name": "brainglobe-atlasapi",
+					"version": "2.1.0"
 				},
 				{
 					"name": "k3d",
 					"version": "2.16.0"
-				}
-			]
-		},
-		"pip3": {
-			"packages": [
+				},
 				{
 					"name": "lc-reconstruction-analysis",
-					"version": "0.0.34"
+					"version": "0.1.0"
 				},
 				{
 					"name": "matplotlib",

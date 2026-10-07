@@ -1,4 +1,4 @@
-# hash:sha256:f86426b24fd8f35f849b0a8c19947913a3c2084da078f94453a5aa8b4780fe1c
+# hash:sha256:36928a3bb2e99b5e0d445378259f5d82052225a2e1d5998d1c0e3318f21bec91
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/mambaforge3:23.1.0-4-python3.10.12-ubuntu22.04
 
@@ -6,14 +6,10 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG GIT_ASKPASS
 COPY git-ask-pass /
 
-RUN conda install -y \
-        hdbscan==0.8.33 \
-        jupyterlab==4.0.9 \
-        k3d==2.16.0 \
-    && conda clean -ya
-
 RUN pip3 install -U --no-cache-dir \
-    lc-reconstruction-analysis==0.0.34 \
+    brainglobe-atlasapi==2.1.0 \
+    k3d==2.16.0 \
+    lc-reconstruction-analysis==0.1.0 \
     matplotlib==3.8.2 \
     networkx==3.2.1 \
     numpy==1.26.2 \
